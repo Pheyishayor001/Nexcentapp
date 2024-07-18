@@ -40,7 +40,7 @@ const Footer = () => {
               height={32}
             />
             <Image
-              src="/social_icons.png"
+              src="/twitter.png"
               alt="Social Icon"
               width={33}
               height={32}
