@@ -29,8 +29,8 @@ const Hero = () => {
             <Btn style="btn" label="Register" />
           </div>
           <Image
-            className=" ml-auto"
-            src={"/illustration.jpg"}
+            className="m-auto"
+            src={"/Frame_35.png"}
             alt="Illustration"
             width={325}
             height={375}
@@ -72,11 +72,11 @@ const Hero = () => {
         <div className="membership grid grid-cols-3 gap-4 px-[5rem]">
           <div className="box mx-[5rem] p-[0.5rem]">
             <Image
-              src={"/iconOne.png"}
+              src={"/LogoOne.png"}
               alt="company logo"
               width={50}
               height={50}
-              className="images  gridImage mx-auto"
+              className="mx-auto"
             />
             <h5>
               Membership <br /> Organisations
@@ -88,11 +88,11 @@ const Hero = () => {
           </div>
           <div className="box mx-[5rem] p-[0.5rem]">
             <Image
-              src={"/iconTwo.png"}
+              src={"/LogoTwo.png"}
               alt="company logo"
               width={50}
               height={50}
-              className="images mx-auto gridImage"
+              className="mx-auto"
             />
             <h5>
               National <br /> Associations
@@ -104,11 +104,11 @@ const Hero = () => {
           </div>
           <div className="box mx-[5rem] p-[0.5rem]">
             <Image
-              src={"/iconOne.png"}
+              src={"/LogoThree.png"}
               alt="company logo"
               width={50}
               height={50}
-              className="images mx-auto gridImage"
+              className="mx-auto"
             />
             <h5>
               Membership <br /> Organisations
