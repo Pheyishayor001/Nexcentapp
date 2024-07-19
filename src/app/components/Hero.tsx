@@ -30,7 +30,7 @@ const Hero = () => {
           </div>
           <Image
             className=" ml-auto"
-            src={"/illustration.png"}
+            src={"/illustration.jpg"}
             alt="Illustration"
             width={325}
             height={375}
@@ -92,7 +92,7 @@ const Hero = () => {
               alt="company logo"
               width={50}
               height={50}
-              className="images mx-[4.5rem] gridImage"
+              className="images mx-auto gridImage"
             />
             <h5>
               National <br /> Associations
@@ -108,7 +108,7 @@ const Hero = () => {
               alt="company logo"
               width={50}
               height={50}
-              className="images mx-[4.5rem] gridImage"
+              className="images mx-auto gridImage"
             />
             <h5>
               Membership <br /> Organisations
