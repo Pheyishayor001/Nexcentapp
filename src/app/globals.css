@@ -20,3 +20,15 @@
 .form::placeholder {
   font-size: 12px;
 }
+
+.dot {
+  @apply h-[10px] w-[10px] rounded-full cursor-pointer m-[0.1rem] flex justify-center items-center;
+}
+
+.box {
+  box-shadow: 1.25px 1.25px 1.1px #e9e9e9;
+}
+
+.images {
+  /* margin: 0 auto; */
+}

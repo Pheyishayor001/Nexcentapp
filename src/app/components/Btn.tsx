@@ -16,7 +16,7 @@ const Btn: React.FC<BtnProps> = ({
 }) => {
   return (
     <button
-      className={`btn bg-green-700 rounded px-5 py-2 text-white border-none hover:bg-green-500 focus:bg-green-500 active:bg-green-500 ${style}`}
+      className={`btn bg-green-500 rounded px-5 py-2 text-white border-none hover:bg-green-700 focus:bg-green-700 active:bg-green-700 ${style}`}
     >
       {`${label} `}
       {icon && (
