@@ -44,7 +44,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="py-4 pb-12 my-2 bg-white text-center">
+      <div className="py-4 pb-12 mt-2 bg-white text-center">
         <h4 className="text-[#4d4d4d] text-2xl font-black ">Our Clients</h4>
         <p className="paragraph text-[#717171] text-xs py-6 pb-8">
           We have been working with some Fortune 500+ clients
@@ -62,7 +62,7 @@ const Hero = () => {
             />
           ))}
         </div>
-        <h4 className="clients-2 text-[#4d4d4d] text-2xl font-black pt-5">
+        <h4 className="text-[#4d4d4d] text-2xl font-black pt-5">
           Manage your entire community <br /> in a single system
         </h4>
         <p className="paragraph text-[#717171] text-xs py-6 pb-8">
