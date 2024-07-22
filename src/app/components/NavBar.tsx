@@ -3,13 +3,13 @@ import Image from "next/image";
 import Btn from "./Btn";
 import Link from "next/link";
 
-const navLinks = "p-3 cursor-pointer hover:text-green-700";
+export const navLinks = "p-3 cursor-pointer hover:text-green-700";
 
 const NavBar = () => {
   return (
-    <nav className="flex p-4 px-12">
+    <nav className="nav flex p-4 px-12">
       <Image
-        className=" h-6 w-[154.49px] my-auto"
+        className="navImg h-6 w-[154.49px] my-auto"
         src="/Nav_Logo.png"
         alt="Company Logo"
         width={100}
