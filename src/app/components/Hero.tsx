@@ -2,7 +2,7 @@ import React from "react";
 import Btn from "./Btn";
 import Image from "next/image";
 
-const images = [
+export const images = [
   "/LogoOne.png",
   "/LogoTwo.png",
   "/LogoThree.png",
@@ -16,20 +16,20 @@ const Hero = () => {
   return (
     <>
       <div className=" flex flex-col">
-        <div className=" flex p-[2.2rem] px-[7.5rem]">
-          <div>
-            <h2 className=" text-5xl text-[#4d4d4d] font-semibold leading-normal">
+        <div className="hero flex p-[2.2rem] px-[7.5rem]">
+          <div className="hero-comp">
+            <h2 className="h2 text-5xl text-[#4d4d4d] font-semibold leading-normal">
               Lessons and insights <br />
               <span className="text-inner text-[#4caf4f]">from 8 years</span>
             </h2>
-            <p className="text-[#717171] text-xs py-6 pb-8">
+            <p className="paragraph text-[#717171] text-xs py-6 pb-8">
               Where to grow your business as a photographer: site or social
               media?
             </p>
             <Btn style="btn" label="Register" />
           </div>
           <Image
-            className="m-auto"
+            className="hero_img m-auto"
             src={"/Frame_35.png"}
             alt="Illustration"
             width={325}
@@ -78,7 +78,7 @@ const Hero = () => {
               height={50}
               className="mx-auto"
             />
-            <h5>
+            <h5 className="h5 text-[#4d4d4d] text-2xl font-black ">
               Membership <br /> Organisations
             </h5>
             <p className="paragraph text-[#717171] text-xs py-6 pb-8">
@@ -94,7 +94,7 @@ const Hero = () => {
               height={50}
               className="mx-auto"
             />
-            <h5>
+            <h5 className="h5 text-[#4d4d4d] text-2xl font-black ">
               National <br /> Associations
             </h5>
             <p className="paragraph text-[#717171] text-xs py-6 pb-8">
@@ -110,8 +110,8 @@ const Hero = () => {
               height={50}
               className="mx-auto"
             />
-            <h5>
-              Membership <br /> Organisations
+            <h5 className=" h5 text-[#4d4d4d] text-2xl font-black ">
+              Clubs and <br /> Groups
             </h5>
             <p className="paragraph text-[#717171] text-xs py-6 pb-8">
               Our membership management software provides full automation of

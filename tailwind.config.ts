@@ -6,6 +6,13 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}", // All files in the app directory
   ],
   theme: {
+    screens: {
+      mobile: "500px",
+      sm: "600px",
+      md: "900px",
+      lg: "1100px",
+      desktop: "1200px",
+    },
     extend: {},
   },
   plugins: [],
