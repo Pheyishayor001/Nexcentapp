@@ -221,7 +221,7 @@ body {
     /* font-size: 50% !important; */
   }
   body {
-    background-color: orangered !important;
+    /* background-color: orangered !important; */
   }
   /* .paragraph {
     font-size: 1rem;
@@ -268,7 +268,7 @@ body {
     font-size: 80% !important;
   }
   body {
-    background-color: skyblue !important;
+    /* background-color: skyblue !important; */
   }
   .hero {
     padding: 0 3.5rem;
@@ -312,7 +312,7 @@ body {
     font-size: 60% !important;
   }
   body {
-    background-color: pink !important;
+    /* background-color: pink !important; */
   }
 
   .nav {
@@ -394,7 +394,7 @@ body {
     font-size: 45% !important;
   }
   body {
-    background-color: powderblue !important;
+    /* background-color: powderblue !important; */
   }
   .nav {
     /* padding: 1rem; */
@@ -523,6 +523,6 @@ body {
 /*MOBILE */
 @media only screen and (max-width: 500px) {
   body {
-    background-color: orange !important;
+    /* background-color: orange !important; */
   }
 }
