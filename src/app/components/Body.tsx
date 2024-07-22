@@ -174,9 +174,9 @@ const Body = () => {
         <h6 className="heading mb-3">Caring is the new marketing</h6>
         <p className="paragraph paragraph-2a paragraph-5 mx-auto">
           The Nexcent blog is the best place to read about the latest membership
-          insights, trends and more. See who's joining the community, read about
-          how our community are increasing their membership income and lot's
-          more.​
+          insights, trends and more. See who&apos;s joining the community, read
+          about how our community are increasing their membership income and
+          lot&apos;s more.​
         </p>
 
         <div className="container5a ">
