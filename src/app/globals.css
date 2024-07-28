@@ -605,7 +605,7 @@ $bp-smallest: 31.25em; //500px / 16px */
     /* background-color: orange !important; */
   }
 
-  .nav > * {
+  /* .nav > * {
     padding: 0.15rem 0;
   }
 
@@ -623,16 +623,16 @@ $bp-smallest: 31.25em; //500px / 16px */
   }
   .images-5 {
     margin: 0 0.75rem;
-  }
+  } */
   .card {
-    margin-left: 2.75rem;
-    max-width: 55%;
+    /* margin-left: 2.75rem; */
+    /* max-width: 55%; */
   }
   .socials_2 {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
   }
   .socials_2 > * {
-    padding: 1rem 1rem;
+    /* padding: 1rem 1rem; */
   }
 }
