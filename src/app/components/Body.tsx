@@ -151,20 +151,22 @@ const Body = () => {
           <p className="paragraph-3">Tim Smith</p>
           <p className="paragraph-4">British Dragon Boat Racing Association</p>
 
-          <div className="flex map ">
-            {images.map(
-              (image, index) =>
-                index <= 5 && (
-                  <Image
-                    key={index}
-                    src={image}
-                    alt="company logo"
-                    width={30}
-                    height={30}
-                    className="images-5"
-                  />
-                )
-            )}
+          <div className="flex-btn flex ">
+            <div className="flex map ">
+              {images.map(
+                (image, index) =>
+                  index <= 5 && (
+                    <Image
+                      key={index}
+                      src={image}
+                      alt="company logo"
+                      width={30}
+                      height={30}
+                      className="images-5"
+                    />
+                  )
+              )}
+            </div>
             <LinkBtn label="Meet all customers" />
           </div>
         </div>

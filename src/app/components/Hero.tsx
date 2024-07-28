@@ -46,11 +46,11 @@ const Hero = () => {
 
       <div className="py-4 pb-12 mt-2 bg-white text-center">
         <h4 className="text-[#4d4d4d] text-2xl font-black ">Our Clients</h4>
-        <p className="paragraph text-[#717171] text-xs py-6 pb-8">
+        <p className="paragraph manage text-[#717171] text-xs py-6 pb-8">
           We have been working with some Fortune 500+ clients
         </p>
 
-        <div className="image flex justify-center pb-2">
+        <div className="image images-6 flex justify-center pb-2">
           {images.map((image, index) => (
             <Image
               key={index}
@@ -65,12 +65,15 @@ const Hero = () => {
         <h4 className="text-[#4d4d4d] text-2xl font-black pt-5">
           Manage your entire community <br /> in a single system
         </h4>
-        <p className="paragraph text-[#717171] text-xs py-6 pb-8">
+        <p
+          className="paragraph manage
+ text-[#717171] text-xs py-6 pb-8"
+        >
           Who is Nextcent suitable for?
         </p>
 
         <div className="membership grid grid-cols-3 gap-4 px-[5rem]">
-          <div className="box mx-[5rem] p-[0.5rem]">
+          <div className="box mx-[1rem] p-[0.5rem]">
             <Image
               src={"/LogoOne.png"}
               alt="company logo"
@@ -86,7 +89,7 @@ const Hero = () => {
               membership renewals and payments
             </p>
           </div>
-          <div className="box mx-[5rem] p-[0.5rem]">
+          <div className="box mx-[1rem] p-[0.5rem]">
             <Image
               src={"/LogoTwo.png"}
               alt="company logo"
@@ -102,7 +105,7 @@ const Hero = () => {
               membership renewals and payments
             </p>
           </div>
-          <div className="box mx-[5rem] p-[0.5rem]">
+          <div className="box box-3 mx-[1rem] p-[0.5rem]">
             <Image
               src={"/LogoThree.png"}
               alt="company logo"

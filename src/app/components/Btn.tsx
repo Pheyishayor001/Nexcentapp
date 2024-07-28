@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import React from "react";
 import Image from "next/image";
 
@@ -33,3 +33,21 @@ const Btn: React.FC<BtnProps> = ({
 };
 
 export default Btn;
+
+interface MenuBtnProps {
+  src: string;
+  event: React.MouseEventHandler<HTMLButtonElement>;
+}
+export const MenuBtn: React.FC<MenuBtnProps> = ({ src, event }) => {
+  return (
+    <button onClick={event} className="mobileNavBtn">
+      <Image
+        className="h-15 w-[25px]"
+        src={`${src}`}
+        alt="Menu Icon"
+        width={30}
+        height={30}
+      />
+    </button>
+  );
+};
