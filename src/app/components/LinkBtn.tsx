@@ -15,13 +15,13 @@ const LinkBtn: React.FC<LinkProps> = ({ label }) => {
         className={`btn_txt p-1 flex text-green-700 ${navLinks} `}
       >
         {label}
-        <Image
+        {/* <Image
           className="linkbtn"
           src="/Right_2.png"
           alt="Arrow right"
           width={30}
           height={1}
-        />
+        /> */}
       </Link>
     </div>
   );
